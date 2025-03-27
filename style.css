@@ -42,7 +42,13 @@ button:nth-last-child(1){
 
 }
 
-@media only screen and (max-width:390px){
+@media only screen and (max-width:500px){
+
+    body{
+        
+    padding-bottom: 20%;
+    
+    }
 
     h1{
     font-size: 20px;
@@ -60,6 +66,27 @@ button:nth-last-child(1){
 
         padding: 6% 36%;
         margin: 5% 0%;
+    }
+
+}
+
+@media only screen and (min-width:501px) and (max-width:768px) {
+
+ 
+    
+    body{
+        
+        padding-bottom: 20%;
+        
+        }
+    
+
+    button{
+
+        margin-top: 15%;
+        padding: 4% 40%;
+        font-size: 30px;    
+
     }
 
 }
